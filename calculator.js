@@ -16,6 +16,6 @@ function e() {
 				d(eval(document.getElementById("d").value));
 		}
 		catch(err) {
-				d("E3r");
+				d("ErrOr");
 		}
 }
