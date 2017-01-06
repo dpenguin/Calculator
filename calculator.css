@@ -1,3 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Calculator Box */
+.box {
+	background-color: #e5e7e8;
+	height: 300px;
+	width: 250px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+
+/* Display */
+
+/* Calculator Buttons */
+
+/* Simulate Button Press */
