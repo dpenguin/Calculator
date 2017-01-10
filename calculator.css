@@ -65,4 +65,17 @@
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
+
 /* Simulate Button Press */
+.function:action {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+.operator:action {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+.number:action {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
