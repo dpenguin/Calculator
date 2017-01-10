@@ -58,19 +58,19 @@ body {
 }
 .button.function{
 	color: white;
-	background-color: #c64f81;
+	background-color: #2CE52F;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator{
 	color: white;
-	background-color: #4d5966;
+	background-color: #0C400D;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number{
-	color: white;
-	background-color: #7091ab;
+	color: #31FF34;
+	background-color: #197F1A;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
