@@ -47,5 +47,22 @@
 	cursor: pointer;
 	border-top: 2px solid transparent;
 }
-
+.button.function{
+	color: white;
+	background-color: #c64f81;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.operator{
+	color: white;
+	background-color: #4d5966;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.number{
+	color: white;
+	background-color: #7091ab;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
 /* Simulate Button Press */
