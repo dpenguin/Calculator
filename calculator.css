@@ -1,3 +1,81 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Calculator Box */
+.box {
+	background-color: #e5e7e8;
+	height: 300px;
+	width: 250px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+
+/* Display */
+.display {
+	background-color: #bfc4cd;
+	width: 220px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	height: 40px;
+}
+.display input {
+	position: relative;
+	left: 2px;
+	top: 2px;
+	height: 30px;
+	width: 210px;
+	color: black;
+	background-color: #bccd95;
+	font-size: 21px;
+	text-align: right;
+}
+
+/* Calculator Buttons */
+.keys {
+	position: relative;
+	top: 15px;
+}
+.button {
+	width: 40px;
+	height: 30px;
+	border: none;
+	border-radius: 8px;
+	margin-left: 17px;
+	cursor: pointer;
+	border-top: 2px solid transparent;
+}
+.button.function{
+	color: white;
+	background-color: #c64f81;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.operator{
+	color: white;
+	background-color: #4d5966;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.number{
+	color: white;
+	background-color: #7091ab;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+
+/* Simulate Button Press */
+.function:active {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+.operator:active {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+.number:active {
+	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
