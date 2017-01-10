@@ -67,15 +67,15 @@
 }
 
 /* Simulate Button Press */
-.function:action {
+.function:active {
 	border-bottom: 2px #6f6f6f solid;
 	border-top: black 2px solid;
 }
-.operator:action {
+.operator:active {
 	border-bottom: 2px #6f6f6f solid;
 	border-top: black 2px solid;
 }
-.number:action {
+.number:active {
 	border-bottom: 2px #6f6f6f solid;
 	border-top: black 2px solid;
 }
