@@ -43,6 +43,17 @@ function v(val) {
 		}
 }
 
+//Functions
+function m(val){
+		if(val =='rc') {
+				
+		}else if(val =='-') {
+				
+		}else{
+				
+		}
+}
+
 // Evaluate the equation
 function e() {
 		try {
