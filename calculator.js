@@ -2,6 +2,7 @@
 
 // Change Display
 var edit = 0;
+var deci = 0;
 function d(val) {
 		if(val == '') {
 				edit = 0;
@@ -13,7 +14,11 @@ function d(val) {
 
 // Type numbers and operators
 function v(val) {
-		if(edit == 0){
+		if(val == '.') {
+				if(deci === 1){
+						d("ErRoar");
+				}
+		}else if(edit === 0){
 				edit = 1;
 				document.getElementById("d").value = val;
 		}else{
