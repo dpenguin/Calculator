@@ -51,19 +51,19 @@ function v(val) {
 var ismem = 0;
 var mem = 0;
 function m(val){
-		if(val =='rc') {
-				if(ismem = 0) {
+		if(val == 'rc') {
+				if(ismem === 0) {
 						d("ErRoar you have no value saved");
 						er = 1;
-				}else if(rroper == 1){
-						document.getElementById("d").value += mem;
+				}else if(rroper === 1){
+						d(document.getElementById("d").value += mem);
 				}else{
-						document.getElementById("d").value = mem;
+						d(document.getElementById("d").value = mem);
 				}
-		}else if(val =='-') {
+		}else if(val === '-') {
 				if(oper =>1){
 						d("ErRoar you cannot save an expression");
-				}else if(er = 1){
+				}else if(er == 1){
 						d("ErRoar you cannot save an error message");
 				}else{
 						mem = (-1)*(Number(document.getElementById("d").value));
@@ -71,7 +71,7 @@ function m(val){
 		}else{
 				if(oper =>1){
 						d("ErRoar you cannot save an expression");
-				}else if(er = 1){
+				}else if(er === 1){
 						d("ErRoar you cannot save an error message");
 				}else{
 						mem = Number(document.getElementById("d").value);
