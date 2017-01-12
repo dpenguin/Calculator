@@ -21,14 +21,14 @@ function d(val) {
 function v(val) {
 		if(val == '/' || val == '*' || val == '-' || val == '+'){
 				if(rroper === 1){
-						d("ErRoar");
+						d("ErRoar too many operators");
 				}else{
 						document.getElementById("d").value += val;
 						rroper = 1;
 				}
 		}else if(val === '.') {
 				if(deci === 1){
-						d("ErRoar");
+						d("ErRoar too many decimals");
 				}else{
 						document.getElementById("d").value += val;
 						deci = 1;
@@ -50,6 +50,6 @@ function e() {
 				d(eval(document.getElementById("d").value));
 		}
 		catch(err) {
-				d("ErRoar");
+				d("ErRoar this is not right");
 		}
 }
