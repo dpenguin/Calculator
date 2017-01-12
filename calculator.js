@@ -44,9 +44,17 @@ function v(val) {
 }
 
 //Functions
+var ismem = 0;
+var mem = 0;
 function m(val){
 		if(val =='rc') {
-				
+				if(ismem = 0) {
+						d("ErRoar you have no value saved");
+				}else if(rroper == 1){
+						document.getElementById("d").value += mem;
+				}else{
+						document.getElementById("d").value = mem;
+				}
 		}else if(val =='-') {
 				
 		}else{
