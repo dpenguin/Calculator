@@ -1,6 +1,8 @@
 // JavaScript Document
 
 // Change Display
+var ismem = 0;
+var mem = 0;
 var edit = 0;
 var deci = 0;
 var oper = 0;
@@ -48,8 +50,7 @@ function v(val) {
 }
 
 //Functions
-var ismem = 0;
-var mem = 0;
+
 function m(val){
 		if(val == 'rc') {
 				if(ismem === 0) {
@@ -61,20 +62,22 @@ function m(val){
 						d(document.getElementById("d").value = mem);
 				}
 		}else if(val === '-') {
-				if(oper =>1){
+				if(oper >=1){
 						d("ErRoar you cannot save an expression");
-				}else if(er == 1){
+				}else if(er === 1){
 						d("ErRoar you cannot save an error message");
 				}else{
 						mem = (-1)*(Number(document.getElementById("d").value));
+						ismem = 1;
 				}
 		}else{
-				if(oper =>1){
+				if(oper >=1){
 						d("ErRoar you cannot save an expression");
 				}else if(er === 1){
 						d("ErRoar you cannot save an error message");
 				}else{
 						mem = Number(document.getElementById("d").value);
+						ismem = 1;
 				}
 		}
 }
