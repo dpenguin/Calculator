@@ -6,6 +6,7 @@ var deci = 0;
 function d(val) {
 		if(val == '') {
 				edit = 0;
+				deci = 0;
 				document.getElementById("d").value = 0;
 		}else{
 				document.getElementById("d").value = val;
@@ -17,6 +18,9 @@ function v(val) {
 		if(val == '.') {
 				if(deci === 1){
 						d("ErRoar");
+				}else{
+						document.getElementById("d").value += val;
+						deci = 1;
 				}
 		}else if(edit === 0){
 				edit = 1;
