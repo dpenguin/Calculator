@@ -9,7 +9,7 @@
 <script type="text/javascript" src="calculator.js"></script>
 </head>
 
-<body>
+<body onLoad="d('')">
 <!--Add your HTML here-->
 	<div class="box">
 			<div class="display">
@@ -17,9 +17,9 @@
 			</div>
 			<div class="keys">
 					<p>
-							<input type="button" value="mrc" class="button function" onClick="alert('?')">
-							<input type="button" value="m-" class="button function" onClick="alert('?')">
-							<input type="button" value="m+" class="button function" onClick="alert('?')">
+							<input type="button" value="mrc" class="button function" onClick="m('rc')">
+							<input type="button" value="m-" class="button function" onClick="m('-')">
+							<input type="button" value="m+" class="button function" onClick="m('+')">
 							<input type="button" value="/" class="button operator" onClick="v('/')">
 					</p>
 					<p>
