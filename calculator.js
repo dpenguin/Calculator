@@ -23,10 +23,12 @@ function d(val) {
 
 // Type numbers and operators
 function v(val) {
-		if(val == '/' || val == '*' || val == '-' || val == '+'){
+		if(val == '/' || val == '*' || val == '-' || val == '+' || val == '%'){
 				if(rroper === 1){
 						d("ErRoar too many operators");
 						er = 1;
+				}else if(edit === 0){
+						d("ErRoar no # to operate");
 				}else{
 						document.getElementById("d").value += val;
 						rroper = 1;
@@ -79,6 +81,16 @@ function m(val){
 						mem = Number(document.getElementById("d").value);
 						ismem = 1;
 				}
+		}
+}
+
+function s(op){
+		if(edit === 0){
+				d("ErRoar no #");
+		}else if(op == 'r'){
+				d(Math.sqrt(eval(document.getElementById("d").value)));
+		}else{
+				d(eval(document.getElementById("d").value)*eval(document.getElementById("d").value));
 		}
 }
 
