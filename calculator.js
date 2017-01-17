@@ -84,6 +84,16 @@ function m(val){
 		}
 }
 
+function s(op){
+		if(edit === 0){
+				d("ErRoar no #");
+		}else if(op == 'r'){
+				d(Math.sqrt(eval(document.getElementById("d").value)));
+		}else{
+				d(eval(document.getElementById("d").value)*eval(document.getElementById("d").value));
+		}
+}
+
 // Evaluate the equation
 function e() {
 		try {
