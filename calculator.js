@@ -27,6 +27,8 @@ function v(val) {
 				if(rroper === 1){
 						d("ErRoar too many operators");
 						er = 1;
+				}else if(edit == 0){
+						d("ErRoar no number to operate on");
 				}else{
 						document.getElementById("d").value += val;
 						rroper = 1;
